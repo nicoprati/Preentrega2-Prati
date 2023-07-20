@@ -1,0 +1,22 @@
+.nosotros h2{
+    padding-top: 40px;
+}
+
+.nosotros, .ubicacion {
+    padding: 20px 10%;
+}
+
+.nosotros-container, .ubi-container {
+    display: flex;
+    gap: 2rem;
+    padding: 20px;
+}
+
+.nosotros-container img {
+    width: 50%;
+}
+
+.ubi-container p{
+    display: block;
+    flex-direction: column;
+}

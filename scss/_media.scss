@@ -1,0 +1,132 @@
+@media (max-width: 768px){
+    .botonera a{
+    position: sticky;
+    left: 0;
+    top: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    padding:10px
+    0px;
+    
+    }
+    
+    header img{
+        width: 100%;
+        display: flex;
+    }
+    
+    .productos-mas-vendidos figure{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;   
+    }
+
+    .productos-mas-vendidos img{
+        width: auto;
+    }
+
+    .productos-mas-vendidos figure p{
+        font-size: $textLg;
+    }
+    .container{
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .container h2{
+        font-size: $textXlg;
+    }
+    .container figure{
+        padding: 30px 0px;
+    }
+
+    .container figure h3{
+        font-size: $textXlg;
+    }
+
+    .tienda section p{
+        width: 85%;
+    }
+
+    .tienda{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "filters"
+        "prod1"
+        "prod2"
+        "prod3"
+        "prod4"
+        "prod5"
+        "prod6"
+        "prod7"
+        "prod8"
+        "prod9";
+    }
+
+    .tienda section img{
+     width: 400px;
+    }
+
+    button{
+        scale: 1.5;
+    }
+
+    p{
+        font-size: $textLg;
+    }
+    
+    .tienda .filters{
+        display: none;
+    }
+
+    .nosotros-container{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+.nosotros-container img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.ubi-container{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.ubi-container p{
+    display: block;
+    flex-direction: column;
+}
+
+footer{
+    display:flex;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.social{
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-left: 0px;    
+}
+
+.social svg{
+    margin: 10px 0px;
+}
+
+.pie{
+    font-size: $textSm;
+    }
+}

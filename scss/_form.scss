@@ -1,0 +1,52 @@
+.formulario{
+    width: 100%;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+        h2{
+            padding-bottom: 20px;
+        }  
+} 
+
+main .formulario .form-contact{  
+    background-color:$formColor; 
+    width: 400px; 
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.form-contact{ 
+    input{
+        width: 80%;
+        align-items: start;
+        border-radius: 5px;
+        border: none;
+    }
+    label{
+        width: 80%;
+        font-size: $textSm; 
+    }
+    textarea{
+        width: 80%;
+        height: 150px;
+        border-radius: 5px;
+    }
+}
+
+.filters{ 
+    form{
+        margin-left: 30px;
+        padding: 0px 0px 20px 20px;
+        background-color:$formColor;
+        width: 300px;
+        height: 423px;
+    }
+    form ul{
+        padding-left: 0;
+    }
+}
